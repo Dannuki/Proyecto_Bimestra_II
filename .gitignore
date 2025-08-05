@@ -1,0 +1,70 @@
+# -----------------------------
+# Archivos de compilación y objetos
+# -----------------------------
+*.obj
+*.exe
+*.out
+*.o
+*.ilk
+*.pdb
+*.exp
+*.lib
+*.dll
+*.manifest
+*.map
+
+# -----------------------------
+# Carpetas generadas por Visual Studio
+# -----------------------------
+Debug/
+Release/
+x64/
+x86/
+build/
+dist/
+cmake-build-debug/
+cmake-build-release/
+
+# -----------------------------
+# Archivos temporales del sistema
+# -----------------------------
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Archivos de Visual Studio (VS2015+)
+# -----------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.vcxproj.filters
+
+# -----------------------------
+# Archivos de depuración y logs
+# -----------------------------
+*.log
+*.cache
+*.tmp
+
+# -----------------------------
+# Archivos específicos de tu proyecto (ajusta según necesidad)
+# -----------------------------
+# Si generas resultados en archivos
+resultados_optimizacion.txt
+resultados.txt
+
+# Si usas archivos temporales
+temp/
+
+# -----------------------------
+# Librerías externas (no subas SFML)
+# -----------------------------
+SFML/
+libs/
+dependencies/
